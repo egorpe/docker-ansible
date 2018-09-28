@@ -1,3 +1,3 @@
 # Ansible in Docker
 
-Builds minimal Alpine docker container to run ansible
+Builds minimal docker container to run ansible playbooks
