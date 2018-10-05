@@ -34,4 +34,4 @@ VOLUME [ "/opt/app" ]
 
 WORKDIR /opt/app
 
-CMD [ "/usr/bin/ansible --version" ]
+CMD [ "/usr/bin/ansible", "--version" ]
