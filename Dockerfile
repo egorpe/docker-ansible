@@ -20,6 +20,7 @@ RUN apk -v --no-cache --update add \
         openssh-client \
         rsync \
         ansible \
+        docker \
         && \
     pip install --no-cache-dir --upgrade awscli==$AWS_CLI_VERSION && \
     update-ca-certificates && \
