@@ -12,7 +12,7 @@ RUN apk -v --no-cache --update add \
         wget \
         zip \
         git \
-        ansible
+        ansible \
     && curl -o /usr/local/bin/jp \
         -L https://github.com/jmespath/jp/releases/download/$JP_VERSION/jp-linux-amd64 \
     && chmod +x /usr/local/bin/jp
